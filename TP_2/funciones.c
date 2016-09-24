@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <ctype.h>
+#include <string.h>
 #include "funciones.h"
 
 
@@ -14,9 +15,6 @@
 void indexZero(ePersona users[], int max){
     int i;
     for(i=0; i<max ; i++){
-        strcpy(users[i].nombre, "\0");
-        users[i].edad=0;
-        users[i].dni=0;
         users[i].flag=0;
     }
     return;
@@ -80,17 +78,19 @@ void ordenYmuestra(ePersona users[], int max){
     ePersona aux;
 
     for(i=0; i<max-1; i++){
-        for(j=1; j<max; j++){
-            if(strcmp(users[i].nombre, users[j].nombre)>0){
-                aux=users[i];
-                users[i]=users[j];
-                users[j]=aux;
+        for(j=i+1; j<max; j++){
+            if(users[i].flag!=0 && users[j].flag!=0){
+                if(strcmp(users[i].nombre, users[j].nombre)>0){
+                    aux=users[i];
+                    users[i]=users[j];
+                    users[j]=aux;
+                }
             }
         }
     }
 
     for(i=0; i<max-1; i++){
-        for(j=1; j<max; j++){
+        for(j=i+1; j<max; j++){
             if(users[i].flag==0 && users[j].flag!=0){
                 aux=users[i];
                 users[i]=users[j];
