@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1474682415 source:d:\estudios\ejercicios codeblocks\tp_2\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	"funciones.h"
+
+1474682603 source:d:\estudios\ejercicios codeblocks\tp_2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	"funciones.h"
+
+1474681101 d:\estudios\ejercicios codeblocks\tp_2\funciones.h
+

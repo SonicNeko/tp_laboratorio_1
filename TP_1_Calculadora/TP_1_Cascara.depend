@@ -1,0 +1,28 @@
+# depslib dependency file v1.0
+1472480833 source:d:\dorian\tp_1_cascara\funciones.c
+
+1472480960 source:d:\dorian\tp_1_cascara\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1472479586 d:\dorian\tp_1_cascara\funciones.h
+
+1473389160 source:d:\estudios\ejercicios codeblocks\tp_1_calculadora\funciones.c
+
+1473389125 source:d:\estudios\ejercicios codeblocks\tp_1_calculadora\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1473389160 d:\estudios\ejercicios codeblocks\tp_1_calculadora\funciones.h
+
+1472652826 source:d:\dorian\tp\tp_1_calculadora\funciones.c
+
+1472648350 source:d:\dorian\tp\tp_1_calculadora\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1472502036 d:\dorian\tp\tp_1_calculadora\funciones.h
+
