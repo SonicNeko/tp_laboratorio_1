@@ -13,3 +13,19 @@
 
 1474681101 d:\estudios\ejercicios codeblocks\tp_2\funciones.h
 
+1474685574 source:c:\users\sonic\documents\github\tp_laboratorio_1\tp_2\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	"funciones.h"
+
+1474681101 c:\users\sonic\documents\github\tp_laboratorio_1\tp_2\funciones.h
+
+1474685574 source:c:\users\sonic\documents\github\tp_laboratorio_1\tp_2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	"funciones.h"
+

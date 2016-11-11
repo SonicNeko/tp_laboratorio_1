@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1478901538 source:d:\estudios\programacion i-laboratorio i\tp's\tp_3\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdbool.h>
+	<conio.h>
+	"funciones.h"
+
+1478901194 d:\estudios\programacion i-laboratorio i\tp's\tp_3\funciones.h
+
+1478900511 source:d:\estudios\programacion i-laboratorio i\tp's\tp_3\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdbool.h>
+	<conio.h>
+	"funciones.h"
+
