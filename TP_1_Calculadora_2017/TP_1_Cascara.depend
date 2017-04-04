@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1491263178 source:d:\estudios\lab-prg 2017\tp's\tp_1_calculadora_2017\funciones.c
+	"funciones.h"
+
+1491263248 d:\estudios\lab-prg 2017\tp's\tp_1_calculadora_2017\funciones.h
+
+1491263392 source:d:\estudios\lab-prg 2017\tp's\tp_1_calculadora_2017\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
